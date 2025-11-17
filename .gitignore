@@ -1,0 +1,77 @@
+# CLion / IntelliJ IDEA
+.idea/
+cmake-build-*/
+.DS_Store
+
+# Build artifacts
+build/
+out/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dylib
+*.so
+*.a
+*.lib
+*.dll
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Debug / Release
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled Object files
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Executables
+*.exe
+*.out
+*.app
+diskerase
+disk_eraser
+
+# CLAUDE files (tutte le varianti)
+CLAUDE.md
+.CLAUDE.md
+*CLAUDE*.md
+claude_*.md
+.claude
+# Logs
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Core dumps
+core
+core.*
